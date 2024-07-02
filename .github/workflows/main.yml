@@ -63,7 +63,6 @@ jobs:
           name: helm-artifacts
           path: ${{ github.workspace }}/helm-charts
 
-
   docker-ci:
     runs-on: ubuntu-latest
     if: ${{ github.ref_name == 'main' }}
